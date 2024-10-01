@@ -1,10 +1,14 @@
--- This file allow to write SQL commands that will be emitted in test and dev.
--- The commands are commented as their support depends of the database
--- insert into myentity (id, field) values(1, 'field-1');
--- insert into myentity (id, field) values(2, 'field-2');
--- insert into myentity (id, field) values(3, 'field-3');
--- alter sequence myentity_seq restart with 4;
 
+    create sequence Flashcard_SEQ start with 1 increment by 50;
+
+    create table Flashcard (
+        date_added date,
+        target_language smallint check (target_language between 0 and 1),
+        id bigint not null,
+        translation varchar(100),
+        word varchar(100),
+        primary key (id)
+    );
 INSERT INTO Flashcard (id, word, translation, target_language, date_added) VALUES (1001, 'också', 'myös', 0, DATE '2024-08-02');
 INSERT INTO Flashcard (id, word, translation, target_language, date_added) VALUES (1002, 'här', 'tällä', 0, DATE '2024-08-02');
 INSERT INTO Flashcard (id, word, translation, target_language, date_added) VALUES (1003, 'glass', 'jäätelö', 0, DATE '2024-08-02');
