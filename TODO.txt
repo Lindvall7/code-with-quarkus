@@ -10,3 +10,4 @@ Ideas for stuff to do in the future
 * Notify user via mail that it is time to practice again
     - notification should include link directly to web page
     - notification should include link a list of words that needs be practiced according to some algorithm.
+* Adding easy set-up for friend to start using application.
