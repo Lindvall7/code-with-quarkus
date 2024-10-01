@@ -1,0 +1,12 @@
+TODO list:
+
+1. Showing all my flashcards on front page in the GUI
+2. writing tests for all classes in org.linden package
+3. Adding endpoints for creating a specific flashcard exercise, i.e a collection of flashcards that can be practised
+separately
+
+
+Ideas for stuff to do in the future
+* Notify user via mail that it is time to practice again
+    - notification should include link directly to web page
+    - notification should include link a list of words that needs be practiced according to some algorithm.

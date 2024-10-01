@@ -6,7 +6,6 @@ import jakarta.inject.Named;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
-import org.linden.Flashcard;
 
 import java.time.LocalDate;
 import java.util.List;
