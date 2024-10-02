@@ -11,3 +11,4 @@ Ideas for stuff to do in the future
     - notification should include link directly to web page
     - notification should include link a list of words that needs be practiced according to some algorithm.
 * Adding easy set-up for friend to start using application.
+* Adding terraform code for deployment in AWS.
