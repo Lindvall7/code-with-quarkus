@@ -1,9 +1,12 @@
 TODO list:
 
 1. Showing all my flashcards on front page in the GUI
-2. writing tests for all classes in org.linden package
+2. Creating a form for adding a new flashcard to the main list
 3. Adding endpoints for creating a specific flashcard exercise, i.e a collection of flashcards that can be practised
 separately
+4. Create practice mode for flashcards.
+5. Integrate with api for getting all conjugations of a verb: https://verbix.com/languages/finnish
+6. writing tests for all classes in org.linden package
 
 
 Ideas for stuff to do in the future
