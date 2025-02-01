@@ -8,7 +8,6 @@ separately
 5. Integrate with api for getting all conjugations of a verb: https://verbix.com/languages/finnish
 6. writing tests for all classes in org.linden package
 
-
 Ideas for stuff to do in the future
 * Notify user via mail that it is time to practice again
     - notification should include link directly to web page
